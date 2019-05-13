@@ -17,19 +17,19 @@ BigQuery Job User, BigQuery Data Editor and Storage Admin.
 2. Download the JSON credentials file. Rename it credentials.json and place it in
 the root directory (the same one this file is in).
 
-3. Open the terminal window and run the following command:
-
-	`export GOOGLE_APPLICATION_CREDENTIALS=credentials.json`
-
-    This will ensure the correct credentials file is used when making requests.
-
-4. Run the following to install the necessary libraries and create a virutal environment
+3. Run the following to install the necessary libraries and create a virutal environment
 
     ```
     > virtualenv venv
     > source venv/bin/activate
     > pip install -r requirements.txt
     ```
+
+4. Open the terminal window and run the following command:
+
+	`export GOOGLE_APPLICATION_CREDENTIALS=credentials.json`
+
+    This will ensure the correct credentials file is used when making requests.
 
 ## Running
 
