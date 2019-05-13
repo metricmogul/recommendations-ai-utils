@@ -26,11 +26,10 @@ the root directory (the same one this file is in).
 4. Run the following to install the necessary libraries and create a virutal environment
 
     ```
-    virtualenv venv
-    
-    source venv/bin/activate
-    
-    pip install -r requirements.txt```
+    > virtualenv venv
+    > source venv/bin/activate
+    > pip install -r requirements.txt
+    ```
 
 ## Running
 
