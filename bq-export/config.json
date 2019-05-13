@@ -1,0 +1,18 @@
+{
+  "DEFAULT": {
+    "SQL_DIR": "sql",
+    "SQL_INPUT_FILES": [
+      "add-to-cart.sql",
+      "checkout-start.sql",
+      "detail-page-view.sql",
+      "home-page-view.sql",
+      "purchase-complete.sql"
+    ],
+    "STORAGE_BUCKET": "recommendations-ai",
+    "BIGQUERY_GA_DATASET": "bigquery-public-data.google_analytics_sample",
+    "BIGQUERY_TEMP_DATASET": "recommendations_ai_temp",
+    "BIGQUERY_TEMP_TABLE": "temp_extract_table",
+    "CLOUD_LOCATION": "US",
+    "LOOKBACK_DAYS": "90"
+  }
+}
