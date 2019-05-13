@@ -1,12 +1,7 @@
 import argparse
 import json
-
 from google.cloud import bigquery
 from google.api_core.exceptions import Conflict
-
-##############################################
-# END OF CONFIG
-##############################################
 
 
 parser = argparse.ArgumentParser()
