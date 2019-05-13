@@ -11,7 +11,8 @@ from google.api_core.exceptions import Conflict
 SQL_DIR = 'sql'
 
 # The list of input SQL queries to run
-INPUT_FILES = ['ecommerce_events.sql', 'transactions.sql', 'pageviews.sql']
+INPUT_FILES = ['add-to-cart.sql', 'checkout-start.sql', 'detail-page-view.sql',
+			   'home-page-view.sql', 'purchase-complete.sql']
 
 # The name of the temporary dataset and table which will be used for exports
 BIGQUERY_TEMP_DATASET = 'recommendations_ai_temp'
