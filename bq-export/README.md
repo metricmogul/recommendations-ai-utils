@@ -7,7 +7,7 @@ it to a JSON format suitable for injesting into Recommendations AI for model tra
 outputted files are saved to Google Storage.
 
 The Recommendations AI event format is described here:
-<https://cloud.google.com/recommendations-ai/docs/reference/rest/v1beta1/UserEvent>
+<https://cloud.google.com/recommendations-ai/docs/user-events>
 
 ## Setup
 
